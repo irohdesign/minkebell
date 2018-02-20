@@ -1,0 +1,128 @@
+/**********************************************************
+	fonts
+**********************************************************/
+
+@font-face {
+	font-family: Bebas Neue;
+	src: url(assets/fonts/Bebas Neue/BebasNeue-Regular.otf);
+}
+
+@font-face {
+	font-family: Hanken;
+	src: url(assets/fonts/Hanken/Hanken-Book.ttf);
+}
+
+@font-face {
+	font-family: Permanent Marker;
+	src: url(assets/fonts/Permanent Marker/PermanentMarker-Regular.ttf);
+}
+
+/**********************************************************
+	color palette
+**********************************************************/
+
+/*
+	#721817 - prune
+	#3E92CC - celestial blue
+	#51355A - pineapple
+	#2A0C4E - russian violet
+	#2A628F - lapis lazuli
+*/
+
+/**********************************************************
+	global
+**********************************************************/
+
+.container {
+	width: 95%;
+}
+
+/**********************************************************
+	nav
+**********************************************************/
+
+.site-brand {
+	font-family: Bebas Neue;
+	font-size: 40px;
+	letter-spacing: 3px;
+	color: black;
+}
+
+.site-brand:hover {
+	text-decoration: line-through;
+	color: #51355a;
+}
+
+.navbar {
+	padding: 0px;
+	margin-top: 5px;
+}
+
+.burger {
+	height: 4px;
+	background-color: black;
+	width: 25px;
+	border-radius: 1.7px;
+	margin: 4px;
+	position: relative;
+	top: -10px;
+	transition: 0.5s;
+}
+
+header button {
+	background: none;
+	border: none;
+	position: relative;
+	top: 23px;
+	z-index: 0;
+}
+
+.sidenav {
+    height: 100%; 
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+	background: #2A628F;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s; 
+}
+
+.flex-wrapper {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: right;  
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ccc;
+    transition: 0.3s;
+    font-family: Hanken;
+    font-size: 23px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/**********************************************************
+	index
+**********************************************************/
+
