@@ -48,14 +48,20 @@
 	color: black;
 }
 
+header {
+	margin-bottom: -20px;
+}
+
 .site-brand:hover {
 	text-decoration: line-through;
 	color: #51355a;
 }
 
 .navbar {
-	padding: 0px;
-	margin-top: 5px;
+	padding: 5px 0px 2.5px 0px;
+	max-width: 1450px;
+	display: block;
+	margin: inherit auto;
 }
 
 .burger {
@@ -84,10 +90,14 @@ header button {
     z-index: 1;
     top: 0;
     right: 0;
-	background: #2A628F;
+	background: white;
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s; 
+}
+
+.closebtn {
+	padding-top: 10px;
 }
 
 .flex-wrapper {
@@ -97,21 +107,21 @@ header button {
     position: absolute;
     height: 80%;
     width: 100%;
-    padding: 10px 20px;
+    padding: 40px 20px 10px;
     text-align: right;  
 }
 
 .sidenav a {
     text-decoration: none;
     font-size: 25px;
-    color: #ccc;
+    color: #aaa;
     transition: 0.3s;
     font-family: Hanken;
     font-size: 23px;
 }
 
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: black;
 }
 
 .sidenav .closebtn {
@@ -123,6 +133,41 @@ header button {
 }
 
 /**********************************************************
-	index
+	index-hero
+**********************************************************/
+
+#hero {
+	height: 500px;
+	width: 100%;
+	display: table;
+	text-align: center;
+}
+
+.middle-text {
+	display: table-cell;
+	vertical-align: middle;
+	font-family: Permanent Marker;
+}
+
+#hero .middle-text h1 {
+	color: white;
+	text-shadow: 4px 6px black;	
+	font-size: 6.5em;
+	letter-spacing: 5px;
+	margin-bottom: 40px;
+	margin-top: 0px;
+}
+
+#hero .middle-text button {
+	border: none;
+	box-sizing: border-box;
+	box-shadow: 3px 3px 0px black;
+	background: yellow;
+	padding: 15px 20px;
+	font-size: 2.8rem;
+}
+
+/**********************************************************
+	index-staff
 **********************************************************/
 
