@@ -321,6 +321,10 @@ footer {
 	margin: 5px auto 20px;
 }
 
+#foot-social a {
+	color: white;
+}
+
 #foot-social .social-buttons {
 	width: 70%;
 	max-width: 800px;
@@ -336,6 +340,23 @@ footer {
 	border-radius: 100%;
 	background: #51355A;
 	display: table;
+	transition: 0.5s ease;
+}
+
+.social-bubble.twitter:hover {
+	background: #1da1f2;
+}
+
+.social-bubble.tumblr:hover {
+	background: #35465c;
+}
+
+.social-bubble.facebook:hover {
+	background: #3b5998;
+}
+
+.social-bubble.reddit:hover {
+	background: #ff4500;
 }
 
 .social-bubble i {
