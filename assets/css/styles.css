@@ -47,6 +47,16 @@ p {
 	font-size: 15.2px;
 }
 
+a {
+	color: #721817;
+}
+
+a:hover {
+	color: #2a0c42;
+	text-decoration: line-through;
+	cursor: hand;
+}
+
 /**********************************************************
 	nav
 **********************************************************/
@@ -153,14 +163,6 @@ header button {
 	text-align: center;
 }
 
-#hero {
-	background: url('assets/img/desk-turn.jpeg');
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: left center;
-	background-repeat: no-repeat;
-}
-
 .middle-text {
 	display: table-cell;
 	vertical-align: middle;
@@ -192,7 +194,7 @@ header button {
 .page-wrapper {
 	background: #F3F3F3;
 	width: 100%;
-	padding: 40px 15px;
+	padding: 15px;
 }
 
 /**********************************************************
@@ -202,8 +204,9 @@ header button {
 .index-inner {
 	background: white;
 	padding: 15px;
-	margin: auto;
+	margin: 30px auto;
 	width: 88%;
+	max-width: 1000px;
 }
 
 /**********************************************************
@@ -244,6 +247,52 @@ header button {
 	max-width: 750px;
 	text-align: center;
 	margin: 15px auto 20px;
+}
+
+/**********************************************************
+	new-list
+**********************************************************/
+
+.new-list-title {
+	background: black;
+	color: white;
+	width: 88%;
+	max-width: 1000px;
+	margin: auto auto -30px;
+	padding: 15px 10px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: Bebas Neue;
+	font-size: 45px; 
+}
+
+.new-list .index-inner {
+	padding: 30px 15px;
+}
+
+.new-img {
+	height: 200px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.new-list p {
+	margin-top: 10px;
+}
+
+.new-list iframe {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	top: 100%;
+	transition: 0.5s ease;
+}
+
+.new-list .new-img:hover iframe {
+	position: relative;
+	top: 0px;
+	transition: 0.5s ease;
 }
 
 /**********************************************************
