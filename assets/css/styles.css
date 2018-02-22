@@ -210,6 +210,27 @@ header button {
 }
 
 /**********************************************************
+	page-top
+**********************************************************/
+
+.page-top {
+	display: table;
+	width: 100%;
+	text-align: center;
+	background: black;
+	color: white;
+}
+
+.page-top h1 {
+	display: table-cell;
+	padding: 40px 0px;
+	vertical-align: middle;
+	font-family: Permanent Marker;
+	font-size: 50px;
+	letter-spacing: 3px;
+}
+
+/**********************************************************
 	index-feat
 **********************************************************/
 
@@ -461,6 +482,62 @@ footer {
 	margin: 10px auto;
 	display: block;
 	font-family: Permanent Marker, sans-serif;
+}
+
+
+/**********************************************************
+	contact page
+**********************************************************/
+
+#contact-wrapper {
+	padding: 30px;
+}
+
+#contact-wrapper h1 {
+	font-family: Bebas Neue, sans-serif;
+	text-align: center;
+}
+
+#contact-wrapper p {
+	width: 88%;
+	max-width: 680px;
+	margin: 20px auto;
+}
+
+#contact-wrapper ul {
+	font-family: hanken;
+	font-weight: normal;
+	width: 80%;
+	max-width: 650px;
+	margin: 10px auto;
+}
+
+#contact-wrapper strong {
+	color: #721817;
+}
+
+#contact-wrapper button {
+	width: 100%;
+	background: black;
+	color: white;
+	font-family: hanken;
+	font-size: 38px;
+	margin: -10px auto 0px;
+	padding: 20px 0px;
+	letter-spacing: 3px;
+}
+
+.question {
+	margin: 30px auto;;
+}
+
+.question:nth-child(1) {
+	margin-top: 0px;
+}
+
+.disclaimer {
+	text-align: center;
+	font-size: 16px;
 }
 
 /**********************************************************
