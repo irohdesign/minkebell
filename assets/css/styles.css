@@ -404,6 +404,66 @@ footer {
 }
 
 /**********************************************************
+	playlist modal formatting
+**********************************************************/
+
+.modal {
+	width: 500px;
+	margin: 25px auto;
+}
+
+.modal iframe {
+	height: 540px;
+	width: 100%;
+}
+
+.modal-header {
+	padding: 30px 15px;
+	background: black;
+}
+
+.modal-header button {
+	font-size: 30px;
+	color: white;
+	opacity: 1;
+	position: relative;
+	top: -15px;
+}
+.modal-header button:hover {
+	color: #3E92CC;
+	opacity: 1;	
+	text-shadow: none;
+}
+
+.modal-footer {
+	background: black;
+	color: white;
+	padding: 20px 20px 25px;	
+}
+
+.modal-footer h3, h5 {
+	font-family: hanken, sans-serif;
+	color: white;
+	opacity: 1;
+	text-align: center;
+}
+
+.modal-footer h3 {
+	margin: 5px;
+}
+
+.modal-footer button {
+	background: yellow;
+	color: black;
+	border: none;
+	width: 70%;
+	font-size: 22px;
+	margin: 10px auto;
+	display: block;
+	font-family: Permanent Marker, sans-serif;
+}
+
+/**********************************************************
 	media queries
 **********************************************************/
 
