@@ -231,7 +231,7 @@ header button {
 }
 
 /**********************************************************
-	index-feat
+	index-feat, staff-feat
 **********************************************************/
 
 #index-feat h1 {
@@ -243,14 +243,16 @@ header button {
 	margin: 30px auto;
 }
 
-#index-feat a {
+#index-feat a,
+#staff-feat a {
 	color: black;
 }
 
-#index-feat iframe {
+#index-feat iframe,
+#staff-feat iframe {
 	max-width: 1000px;
 	display: block;
-	margin: 35px auto 15px;
+	margin: 35px auto 5px;
 }
 
 .feat-img {
@@ -259,7 +261,8 @@ header button {
 	margin: auto; 
 }
 
-#index-feat h2 {
+#index-feat h2,
+#staff-feat h2 {
 	text-align: center;
 	font-family: Permanent Marker;
 	font-size: 33px;
@@ -267,11 +270,22 @@ header button {
 	margin: 25px auto 20px;
 }
 
-#index-feat p {
+#index-feat p,
+#staff-feat p {
 	width: 80%;
 	max-width: 750px;
 	text-align: center;
 	margin: 15px auto 20px;
+}
+
+#index-feat:hover h2,
+#staff-feat:hover h2 {
+	text-decoration: line-through;
+}
+
+#index-feat:hover a,
+#staff-feat:hover a {
+	text-decoration: none;
 }
 
 /**********************************************************
