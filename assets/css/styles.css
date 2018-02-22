@@ -222,6 +222,10 @@ header button {
 	margin: 30px auto;
 }
 
+#index-feat a {
+	color: black;
+}
+
 #index-feat iframe {
 	max-width: 1000px;
 	display: block;
@@ -299,6 +303,18 @@ header button {
 	font-family: Bebas Neue;
 	font-size: 32px;
 	margin-top: 15px;
+}
+
+.new-list a {
+	color: black;
+}
+
+.new-list a:hover {
+	text-decoration: none;
+}
+
+.new-list a:hover h3 {
+	text-decoration: line-through;
 }
 
 /**********************************************************
