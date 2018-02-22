@@ -662,8 +662,9 @@ footer {
 **********************************************************/
 
 #about-page {
-	min-height: 600px;
+	min-height: 100%;
 	position: relative;
+	background-position: center !important;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -728,4 +729,17 @@ footer {
 	#about-page {
 		min-height: 700px;
 	}
-} 
+}
+
+@media only screen and (max-width: 900px) {
+	#about-page {
+		background-position:  center !important;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	#about-page {
+		background: #ddd !important;
+		text-align: center;
+	}
+}  
