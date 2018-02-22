@@ -57,6 +57,40 @@ a:hover {
 	cursor: hand;
 }
 
+.col-sm-6 {
+	padding: 10px;
+}
+
+.col-sm-6:nth-child(1) {
+	padding-right: 10px;
+}
+
+.col-sm-6:nth-child(2) {
+	padding-left: 10px;
+}
+
+.col-sm-4 {
+	padding: 10px;
+}
+
+.col-sm-4:nth-child(1) {
+	padding-right: 5px;
+}
+
+.col-sm-4:nth-child(2) {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.col-sm-4:nth-child(3) {
+	padding-left: 5px;
+}
+
+
+.row a {
+	color: black;
+}
+
 /**********************************************************
 	nav
 **********************************************************/
@@ -555,11 +589,98 @@ footer {
 }
 
 /**********************************************************
+	multi-post
+**********************************************************/
+
+.excerpt-half-img {
+	background: yellow;
+	height: 250px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.col-sm-6:hover a {
+	text-decoration: none;
+}
+
+.col-sm-6:hover h3 {
+	text-decoration: line-through;
+}
+
+.excerpt-half-sum h3 {
+	font-family: Bebas Neue;
+	font-size: 28px;
+	margin: 15px 0px 0px;
+}
+
+.excerpt-third-img {
+	height: 180px;
+	width: 100%;
+	position: relative;
+	filter: grayscale(0.7);
+	overflow: hidden;
+}
+
+.excerpt-third-img:hover {
+	filter: none;
+	transition: 0.5s ease;	
+}
+
+.excerpt-third-img:hover h4 {
+	height: 100%;
+	display: table-cell;
+	transition: 0.5s ease;
+}
+
+.excerpt-third-img:hover .excerpt-third-title {
+	position: relative;
+	top: 60%;
+	transition: 1s;
+}
+
+.excerpt-third-title {
+	position: absolute;
+	top: 300px;
+	font-family: hanken;
+	height: 40%;
+	width: 100%;
+	display: table;
+	background: rgba(0,0,0,0.5);
+	transition: 0.5s ease;
+}
+
+.excerpt-third-title h4 {
+	
+	color: white;
+	display: none;
+	vertical-align: middle;
+	text-align: center;
+}
+
+/**********************************************************
 	media queries
 **********************************************************/
 
 @media only screen and (min-width: 900px) {
 	.feat-img {
 		height: 400px;
+	}
+	
+	.excerpt-half-img {
+		height: 300px;
+	}
+	
+	.excerpt-third-img {
+		height: 250px;
+	}
+	
+	.excerpt-third-title {
+		height: 25%;
+	}
+	
+	.excerpt-third-img:hover .excerpt-third-title {
+		position: relative;
+		top: 75%;
+		transition: 1s;
 	}
 } 
