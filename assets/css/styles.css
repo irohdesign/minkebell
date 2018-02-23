@@ -702,6 +702,10 @@ footer {
 	padding: 0px;
 }
 
+#multi-wrapper .col-sm-6 {
+	margin-bottom: 20px;
+}
+
 .col-sm-6:hover a {
 	text-decoration: none;
 }
@@ -722,6 +726,10 @@ footer {
 	position: relative;
 	filter: grayscale(0.7);
 	overflow: hidden;
+}
+
+#multi-wrapper a:hover {
+	text-decoration: none;
 }
 
 .excerpt-third-img:hover {
@@ -838,9 +846,25 @@ footer {
 	#about-page {
 		background-position:  center !important;
 	}
+	
+	#multi-wrapper .row {
+		margin: auto;
+	}
+	
+	#multi-wrapper .col-sm-6 {
+		padding: 0px;
+	}
+	
+	#multi-wrapper .col-sm-6:nth-child(even) {
+		padding-left: 5px;
+	}
+	
+	#multi-wrapper .col-sm-6:nth-child(odd) {
+		padding-right: 5px;
+	}
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 767px) {
 	#hero {
 		height: 100%;
 	}
