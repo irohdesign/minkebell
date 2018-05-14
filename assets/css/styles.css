@@ -55,54 +55,11 @@ a {
 	color: #721817;
 }
 
-a:hover {
-	color: #2a0c42;
-	text-decoration: line-through;
-	cursor: hand;
-}
-
-.col-sm-4 {
+.row {
+	margin: 0px;
 	padding: 0px;
 }
 
-.col-sm-4:nth-child(1) {
-	padding-right: 10px;
-}
-
-.col-sm-6:nth-child(2) {
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-.col-sm-4:nth-child(3) {
-	padding-left: 10px;
-}
-
-.col-md-3:nth-child(3) {
-	padding-right: 5px;
-}
-
-.col-md-3:nth-child(4) {
-	padding-left: 5px;
-	padding-right: 5px;
-}
-
-
-.col-sm-6 {
-	padding: 10px;
-}
-
-.col-sm-6:nth-child(1) {
-	padding-right: 10px;
-}
-
-.col-sm-6:nth-child(2) {
-	padding-left: 10px;
-}
-
-.row a {
-	color: black;
-}
 
 /**********************************************************
 	nav
@@ -339,6 +296,41 @@ header button {
 #staff-feat:hover a,
 #indiv-post:hover a {
 	text-decoration: none;
+}
+
+/**********************************************************
+	#indiv-post #sidebar
+**********************************************************/
+
+#sidebar {
+	margin: auto;
+	display: block;
+	background: white;
+}
+
+#sidebar h1 {
+	text-align: center;
+	margin: 15px auto 10px;
+}
+
+#sidebar .col-md-12 {
+	padding: 15px 10px;
+}
+
+.sq-prev {
+	height: 150px;
+	background: red;
+	margin-bottom: 10px;
+}
+
+#sidebar h4 {
+	margin-bottom: 5px;
+}
+
+#sidebar h5 {
+	display: block;
+	color: black;
+	text-align: left;
 }
 
 /**********************************************************
@@ -890,11 +882,11 @@ footer {
 		background: #ddd !important;
 	}
 	
-	.new-list .col-sm-4:nth-child(1) {
+	.new-list .:nth-child(1) {
 		margin-top: -10px;
 	}
 	
-	.col-sm-4 {
+	. {
 		padding: 10px 0px;
 		margin: 10px auto;
 	}
@@ -925,12 +917,12 @@ footer {
 		padding: 0px;
 	}
 	
-	#multi-wrapper .col-sm-4 {
+	#multi-wrapper . {
 		padding: 0px;
 		margin: 30px auto;
 	}
 	
-	#multi-wrapper .col-sm-4:nth-child(3){
+	#multi-wrapper .:nth-child(3){
 		margin-bottom: 0px;
 	}
 	
