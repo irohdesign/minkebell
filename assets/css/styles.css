@@ -402,6 +402,28 @@ header button {
 	background-size: cover;
 }
 
+#search-bar {
+	background: #2A628F;
+	text-align: center;
+	padding: 15px;
+}
+
+.search-bar input {
+	width: 100%;
+	display: block;
+	border: none;
+	font-family: Varela Round;
+	text-align: center;
+	padding: 10px;
+	border-radius: 4px;
+	margin-top: 15px;
+}
+
+.search-bar input[type=submit],
+.search-bar input[type="text"] {
+	border: none;
+}
+
 /**********************************************************
 	comments
 **********************************************************/
